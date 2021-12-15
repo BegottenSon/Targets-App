@@ -3,7 +3,7 @@
     import Nav from '$lib/Layouts/Nav.svelte'
 </script>
 
-<Nav />
+<!-- <Nav /> -->
 <main>
     <slot/>
 </main>
