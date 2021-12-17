@@ -2,6 +2,7 @@
     import SlideSideways from '$lib/Transitions/SlideSideways.svelte';
     import { targets, savedToOffset } from "$lib/Stores/targets";
     import { fly } from "svelte/transition";
+import Nav from '$lib/Layouts/Nav.svelte';
 
     let focusedTarget = {};
     let popUp = false;
@@ -85,6 +86,8 @@
                 </section>
             </section>  
         {/if}
+
+        <Nav />
     </main>
 </SlideSideways>
 

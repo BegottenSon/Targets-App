@@ -12,7 +12,7 @@
 
     function addIncome() {
         $income = $income + value;
-        dispacth('addedIncome', {
+        dispacth('handleIncome', {
             reset: false
         })
     }
